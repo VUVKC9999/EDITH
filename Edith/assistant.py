@@ -441,6 +441,7 @@ while running:
                     speak('redirecting to webpage')
                     webbrowser.get().open_new_tab(page2)
                     print(page2)
+                    
             elif 'youtube' in answer4:
                 speak('searching for ' + text + 'in youtube')
                 wb.get().open_new_tab('https://www.youtube.com/results?search_query=' + text)
